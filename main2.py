@@ -4,7 +4,7 @@ import numpy as np
 
 # Load model and encoders
 model = joblib.load("model.pkl")
-encoders = joblib.load("encoder.pkl")
+encoders = joblib.load("encoders.pkl")
 accuracy = joblib.load("accuracy.pkl")
 
 st.title("Workforce Distribution AI Predictor")
